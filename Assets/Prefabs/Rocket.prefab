@@ -125,6 +125,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mainThrust: 1000
   rotationThrust: 100
+  thrusters: {fileID: 8300000, guid: ad64c3d855d0646449679ba6fdf6d0c9, type: 3}
 --- !u!54 &3892347243581175256
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -260,3 +261,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70963ac4dcdd0b14193a786063fabc17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelLoadDelay: 2
